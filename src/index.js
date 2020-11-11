@@ -8,7 +8,7 @@ app.set('port', process.env.PORT || 3000);
 app.use(express.json());  
 
 // Routes
-app.use(require('./routes/employees.js'))
+app.use(require('./routes/employees'))
 
 // Starting Server
 app.listen(app.get('port'), () => {
