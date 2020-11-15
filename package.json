@@ -4,6 +4,7 @@
   "description": "This is an API REST created with nodejs and mysql",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/uzunigat/API---Node#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
